@@ -16,7 +16,7 @@ _AutoFollow-o-mático_ é um robô automatizado projetado para realizar o login 
 # Como Funciona o Projeto?
 ## Dados de login
 O _AutoFollow-o-mático_ conta com uma simples funcionalidade de banco de dados utilizando excel.
-- Primeiro ele tenta abrir a planilha que contenha os dados de login do instagram do usuário.
+- Primeiro ele tenta abrir a planilha que contenha os dados de login do Instagram do usuário.
 
   ```python
   try:
@@ -101,7 +101,7 @@ O _AutoFollow-o-mático_ conta com uma simples funcionalidade de banco de dados 
   Mas caso já esteja logado, o navegado apenas prosseguirá.
   
 ## Seguir
-- Com o Login feito com sucesso, ele ativará a função de seguir pessoas:
+- Com o login feito com sucesso, ele ativará a função de seguir pessoas:
   ```python
   seguir()
   ```
@@ -117,9 +117,9 @@ O _AutoFollow-o-mático_ conta com uma simples funcionalidade de banco de dados 
   - Rode novamente o _AutoFollow-o-mático_.
 
 ## Informaçãoes adicionais
-O _AutoFollow-o-mático_ possui uma funcionalidade excelente para projetos de automação web, que é o _SALVAMENTO DE DADOS_ Do navegador. Com isso, após o primeiro login, essa informação de login do navegador automatizado será guardada numa pasta no sistema, assim, na próxima vez que o _AutoFollow-o-mático_ for inicializado, será aberto o navegador com as informações salvas. Então, não será necessário realizar o logim na mesma conta novamente.
+O _AutoFollow-o-mático_ possui uma funcionalidade excelente para projetos de automação web, que é o _SALVAMENTO DE DADOS_ Do navegador. Com isso, após o primeiro login, essa informação de login do navegador automatizado será guardada numa pasta no sistema, assim, na próxima vez que o _AutoFollow-o-mático_ for inicializado, será aberto o navegador com as informações salvas. Então, não será necessário realizar o login na mesma conta novamente.
 
-Além de possuir também um mini banco de dados em excel que guarda o nome ou email e senha da conta do instagram do usuário. Assim, se for necessário realizar o login, o robô usará essas informações salvas na planilha.
+Além de possuir também um mini banco de dados em excel que guarda o nome ou email e senha da conta do Instagram do usuário. Assim, se for necessário realizar o login, o _AutoFollow-o-mático_ usará essas informações salvas na planilha.
 
 2 sacadas geniais né.
 
@@ -137,7 +137,7 @@ Ambas funcionalidades pensadas e programadas para deixar ainda mais automático 
             print('-Espera Finalizada-')
   ```
 
-- Logar: Essa função tentará realizar o Login utilizando as informações de nome ou email e senha salvas na planilha.
+- Logar: Essa função tentará realizar o Login usando as informações de nome ou email e senha salvas na planilha.
   ```python
           def logar(email,senha):
             try:
@@ -157,7 +157,7 @@ Ambas funcionalidades pensadas e programadas para deixar ainda mais automático 
   
   ```
 
-- clicar: Essa função Resume o processo do selenium encontrar um elemento no navegador, passando apenas os parâmetros necessários.
+- clicar: Essa função resume o processo do selenium encontrar um elemento no navegador, passando apenas os parâmetros necessários.
   ```python
   def clicar(tipo,valor,valordovalor,escrever=0):
     while True:
@@ -184,11 +184,11 @@ Ambas funcionalidades pensadas e programadas para deixar ainda mais automático 
                 print("clicado com sucesso!")
                 break
   ```
-  Me orgulho tanto desta função. Eu literalmente descobrir como programá-la enquanto dormia.
+  Me orgulho tanto desta função. Eu literalmente descobri como programá-la enquanto dormia.
   
   Por que ela é tão top?
 
-  _Ex login sem essa função:_
+  _Ex do login sem essa função:_
   ```python
     def logar(email,senha):
       try:
@@ -229,7 +229,7 @@ Ambas funcionalidades pensadas e programadas para deixar ainda mais automático 
 
   #### O código fica lindo, resumido e funcional!!
 
-- Função Seguir: Seguirá as pessoas recomendadas no instagram, fazendo pausas periodicas de 10 minutos ou 1 hora, reiniciando a página para que mais pessoas sejam sugeridas e seguidas.
+- Função Seguir: Seguirá as pessoas recomendadas no Instagram, fazendo pausas periódicas de 10 minutos ou 1 hora e reiniciando a página para que mais pessoas sejam sugeridas e seguidas.
 
   ```python
     def Seguir():
