@@ -123,7 +123,7 @@ Além de possuir também um mini banco de dados em excel que guarda o nome ou em
 
 2 sacadas geniais né.
 
-Ambas funcionalidades pensadas e programadas para deixar ainda mais automático o robo.
+Ambas funcionalidades pensadas e programadas para deixar ainda mais automático o _AutoFollow-o-mático_.
 
 ### Funções
 - Dormir: essa função é um sleep mais sofisticado, que permite o usuário ver quanto tempo ainda falta para o próximo passo.
